@@ -7,10 +7,7 @@ const videoSchema = new Schema(
       type: String, // cloud service using to get URL
       required: true,
     },
-    thumbnail: {
-      type: String, // cloud service using to get URL
-      required: true,
-    },
+
     thumbnail: {
       type: String, // cloud service using to get URL
       required: true,
