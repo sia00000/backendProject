@@ -33,4 +33,12 @@ app.use(express.static("Public"));
 //set cookies
 
 app.use(cookieParser());
+
+// Routes Import
+
+import userRouter from "./routes/user.route.js";
+
+// Routes Declaration
+
+app.use("/api/v1/users", userRouter);
 export default express;
