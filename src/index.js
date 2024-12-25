@@ -4,6 +4,7 @@ import app from "./app.js";
 
 connectDB()
   .then(() => {
+    //express Baat nhi kr pa rhi hai isliye use app.on method
     app.on("error", () => {
       console.log("ERRR", error);
       throw error;
